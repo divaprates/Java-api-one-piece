@@ -6,5 +6,5 @@ import com.api.onepiece.model.Fruit;
 
 public interface FruitService {
     List<Fruit> findAll();
-
+    void insert(Fruit fruit);
 }

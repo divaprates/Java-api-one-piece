@@ -20,4 +20,9 @@ public class FruitServiceImpl implements FruitService {
         return fruitRepository.findAll();
     }
 
+    @Override
+    public void insert(Fruit fruit) {
+        fruitRepository.save(fruit);
+    }
+
 }
