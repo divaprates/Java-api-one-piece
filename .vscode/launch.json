@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-OnePieceApplication<one-piece>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.api.onepiece.OnePieceApplication",
+            "projectName": "one-piece",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
